@@ -10,9 +10,9 @@ The customers cannot decide and are taking long..even if it is just lemonade. Wh
     <<save EventSystem kindness 10>>
     <<moodBoard EventSystem happy>>
     Player: Take your time! I have fresh and juiiicy lemonade.
+    Bat: We cannot decide how many aaaaghh.
     <<animation Bat(Clone) Positive>>
     <<expression BatFace Angry>>
-    Bat: We cannot decide how many aaaaghh.
     After a while the customers made their order. It is a veeeeryy friendly gesture. I bet you are an amazing friend!
 -> Take other orders until they decide.
     <<save EventSystem prudence 10>>

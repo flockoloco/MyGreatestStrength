@@ -5,11 +5,11 @@ position: -376,387
 ---
     //Generous Customer
 The Tree comes to your stand.
+Tree: I really like your lemonades and wanted to ask if you can bring some to my party.
     <<animation Tree(Clone) Positive>>
     <<expression TreeFace Happy>>
-Tree: I really like your lemonades and wanted to ask if you can bring some to my party.
 -> Ask what kind of party
-    <<save Eventsystem curiosity 10>>
+    <<save EventSystem curiosity 10>>
     <<moodBoard EventSystem happy>>
     Player: That´s so fun! For what is the party
     Tree: For my..
@@ -26,7 +26,7 @@ Tree: I really like your lemonades and wanted to ask if you can bring some to my
     Player: I will make the beeest and fresh lemonade for you special day!
     The Tree is four thousand years old? He looks muuch younger! Happy birthday Tree!
 -> Explain how much you charge and how you do everything
-    <<save Eventsystem prudence 10>>
+    <<save EventSystem prudence 10>>
     <<moodBoard EventSystem happy>>
     Player: Thank you!
     Player: I do that yes.

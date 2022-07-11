@@ -16,7 +16,7 @@ What is that crowd over there? There are not in line yet. What do you think coul
     <<save EventSystem curiosity 10>>
     <<moodBoard EventSystem angry>>
     Hmm let´s see what happenes. Look carefully! Maybe we find some clues.
-[[Sit_GroupCustomer_KvB_16]]
+<<jump Sit_GroupCustomer_KvB_16>>
 ===
 title: Sit_GroupCustomer_KvB_16
 tags: 
@@ -29,9 +29,9 @@ Customers are backing down. Is someone getting teased over there??
     <<save EventSystem kindness 10>>
     <<moodBoard EventSystem happy>>
     Player: Hey! Hey.. are you okay? What is going on?
+    Candle: Fey teased me!
     <<animation Candle(Clone) Negative>>
     <<expression CandleFace Horrified>>
-    Candle: Fey teased me!
     Player: Wha-what?! You can come with me. We can talk about it and drink a fresh lemonade..
     <<animation Candle(Clone) Positive>>
     <<expression CandleFace Anxious>>
@@ -43,14 +43,14 @@ Customers are backing down. Is someone getting teased over there??
     <<moodBoard EventSystem angry>>
     <<save EventSystem bravery 10>>
     Player: Hey! Leave them alone! WHAT IS WRONG WITH YOU?
+    Chameleon: Why do you care?!
     <<animation Chameleon(Clone) Negative>>
     <<expression ChameleonFace Angry>>
-    Chameleon: Why do you care?!
     Player: This is my stand! I´m not letting you bully someone!
     <<animation Chameleon(Clone) Negative>>
     <<expression ChameleonFace Angry>>
     Chameleon: Shut up, lemonade man.
-[[Sit_GroupCustomer_GvB_17]] 
+<<jump Sit_GroupCustomer_GvB_17>>
 ===
 title: Sit_GroupCustomer_GvB_17
 tags: 
@@ -59,20 +59,20 @@ position: 374,526
 ---
     //Group Customer
 The bullies won´t back down. Another customer comes.
+StoneGolem: Get lost. Now!!!!!
     <<animation StoneGolem(Clone) Negative>>
     <<expression StoneGolemFace Angry>>
-StoneGolem: Get lost. Now!!!!!
 -> Thank them
     <<save EventSystem gratitude 10>>
     <<moodBoard EventSystem happy>>
     Player: Thank you so much. 
     Player: They reaaally thought this is something good. 
-    <<animation StoneGolem(Clone) Positive>>
-    <<expression StoneGolemFace Annoyed>>
     StoneGolem: Yeah, now they are scared and won´t come back. I got you.
     <<animation StoneGolem(Clone) Positive>>
-    <<expression StoneGolemFace Friendly>>
+    <<expression StoneGolemFace Annoyed>>
     StoneGolem: Noone treats my lemonade man like this. 
+    <<animation StoneGolem(Clone) Positive>>
+    <<expression StoneGolemFace Friendly>>
 -> Speak up to the bullies again
     <<save EventSystem bravery 10>>
     <<moodBoard EventSystem angry>>

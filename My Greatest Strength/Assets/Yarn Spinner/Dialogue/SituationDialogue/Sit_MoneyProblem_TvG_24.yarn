@@ -7,9 +7,9 @@ position: 373,207
 <<moodBoard EventSystem happy>>
 Player: Here your lemonade!
 <<moodBoard EventSystem angry>>
+Tree: One 
 <<animation Tree(Clone) Positive>>
 <<expression TreeFace Serious>>
-Tree: One 
 Tree: Second...
 Tree: Hmmm.
 Tree: Ehm.. one.. two

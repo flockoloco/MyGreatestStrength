@@ -9,9 +9,9 @@ Yayyy, a group of customers come to your stand. That´s not english? They speak 
     <<save EventSystem bravery 10>>
     <<moodBoard EventSystem angry>>
     Player: Does anyone speak the same language?
+    Tree: I..
     <<animation Tree(Clone) Positive>>
     <<expression TreeFace Friendly>>
-    Tree: I..
     Tree: I can..
     <<moodBoard EventSystem happy>>
     Player: You are a lifesaver! Can you say to me what they want?

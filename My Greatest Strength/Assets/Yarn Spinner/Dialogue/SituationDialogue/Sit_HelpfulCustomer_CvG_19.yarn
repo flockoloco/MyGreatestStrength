@@ -5,9 +5,9 @@ position: 860,404
 ---
     //Helpful Customer
 Hm? Your eyes started to hurt?
+Mushroom: Are you okay? Your eyes are red. I saw you
     <<animation Mushroom(Clone) Negative>>
     <<expression MushroomFace Worried>>
-Mushroom: Are you okay? Your eyes are red. I saw you
 Player: It huuuurtss!
 -> Ask them how that happened
     <<save EventSystem curiosity 10>>

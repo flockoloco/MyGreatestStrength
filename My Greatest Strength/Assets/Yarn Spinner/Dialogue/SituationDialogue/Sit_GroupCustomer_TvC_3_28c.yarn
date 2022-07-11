@@ -16,7 +16,7 @@ You have to find a way of handling the crowd.
     <<moodBoard EventSystem happy>>
     Player: Okay so everyone will get their lemonade very fast! Everyone gets a glass and you hold them up. I am going to pour the lemonade one by one. 
     This was such a smart way of handling the situation! Well done.
-[[Sit_OtherCustomerConsequence_TvB_28]] 
+<<jump Sit_OtherCustomerConsequence_TvB_28>>
 ===
 title: Sit_OtherCustomerConsequence_TvB_28
 tags: 

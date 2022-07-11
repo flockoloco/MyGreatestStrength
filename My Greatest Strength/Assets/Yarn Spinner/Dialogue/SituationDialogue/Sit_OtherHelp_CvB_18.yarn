@@ -4,15 +4,15 @@ colorID: 0
 position: 187,417
 ---
 //Customer who need other help
+    Mushroom: Heyoo peeps! Do you know where a nearby supermarket is?
     <<animation Mushroom(Clone) Positive>>
     <<expression MushroomFace Friendly>>
-    Mushroom: Heyoo peeps! Do you know where a nearby supermarket is?
 -> Wait until other customers respond. Maybe they have a better location
     <<save EventSystem curiosity 10>>
     <<moodBoard EventSystem happy>>
+    Owl: hmmm. I must know one..Somewhere..near..
     <<animation Owl(Clone) Positive>>
     <<expression OwlFace Neutral>>
-    Owl: hmmm. I must know one..Somewhere..near..
     Owl: Is it on the left or..
     <<expression OwlFace Happy>>
     Owl: Agh. I remembered! 
@@ -24,8 +24,8 @@ position: 187,417
     <<save EventSystem bravery 10>>
     <<moodBoard EventSystem happy>>
     Player: It is down the hill on the right side!
-    <<expression OwlFace Happy>>
     Owl: Look at you! I thought I am the only one who knows that place. 
+    <<expression OwlFace Happy>>
     Owl: Proud of the younger ones here. You should buy some apples.. they are SOO good.
     Yes!! Share your knowledge with everyone!!
 ===

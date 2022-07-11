@@ -9,9 +9,9 @@ OH Noooo! You spilled lemonade on the customer.. Quick!
     <<save EventSystem kindness 10>>
     <<moodBoard EventSystem angry>>
     Player: I am so sorry. Here, a free lemonade!
+    Tree: That´s okay. It will actually help me grow faster.
     <<animation Tree(Clone) Positive>>
     <<expression TreeFace Friendly>>
-    Tree: That´s okay. It will actually help me grow faster.
     <<moodBoard EventSystem happy>>
     Tree: But I can´t say no to a lemonade.
     Player: Puuh, I´m glad. 
@@ -26,8 +26,8 @@ OH Noooo! You spilled lemonade on the customer.. Quick!
     Player: Here. Take this tissue. 
     Player: Are you going to be alright?
     <<moodBoard EventSystem happy>>
+    Tree: Yes yes. Don´t worry. 
     <<animation Tree(Clone) Positive>>
     <<expression TreeFace Friendly>>
-    Tree: Yes yes. Don´t worry. 
     Hmm smart. You didn´t give them free lemonade because it could affect your business, right?
 ===

@@ -10,9 +10,9 @@ Double Oh no! They have a dog! A veeery not nice dog.. The owners are not home y
     <<save EventSystem teamwork 10>>
     <<moodBoard EventSystem angry>>
     Player: Owl, help mee!!!
+    Owl: How????
     <<animation Owl(Clone) Positive>>
     <<expression OwlFace Serious>>
-    Owl: How????
     Player: You have to distract the dog.
     <<animation Owl(Clone) Negative>>
     <<expression OwlFace Happy>>

@@ -4,35 +4,37 @@ colorID: 0
 position: 154,403
 ---
 //Customer who need other help
-    <<animation Bear(Clone) Negative>>
-    <<expression BearFace Angry>>
-    <<animation Bat(Clone) Negative>>
-    <<expression BatFace Angry>>
 The Bat and the Bear are arguing veery loudly.
 -> Listen to their conversation to learn more
-    <<save Eventsystem curiosity 10>>
+    <<save EventSystem curiosity 10>>
     <<moodBoard EventSystem angry>>
     Bear: I don´t want to hang out with him. He is weird
+    <<animation Bear(Clone) Negative>>
+    <<expression BearFace Angry>>
     Bat: But you don´t know him?
+    <<animation Bat(Clone) Negative>>
+    <<expression BatFace Angry>>
     Bear: THAT´S THE POINT?!?
     Bat: AGHH! Sometimes I get soooo mad at you!
     Bear: Well, ME TOO!
-    [[Sit_OtherHelp_TvG_39]] 
+    <<jump Sit_OtherHelp_TvG_39>>
 -> Ask them if everything is fine as they are very loud
-    <<save Eventsystem prudence 10>>
+    <<save EventSystem prudence 10>>
     <<moodBoard EventSystem happy>>
     Player: Is everything alright with you two?
     <<moodBoard EventSystem angry>>
     Bear: Why do you care?!
+    <<animation Bear(Clone) Negative>>
+    <<expression BearFace Angry>>
     Player: I just wanted to help
     Player: It´s very loud and maybe I could help you.
     <<moodBoard EventSystem happy>>
+    Bat: Good plan! You could put some sense in the Bear.
     <<animation Bat(Clone) Positive>>
     <<expression BatFace Neutral>>
-    Bat: Good plan! You could put some sense in the Bear.
     <<moodBoard EventSystem angry>>
     Bear: Grrh..
-    [[Sit_OtherHelp_TvG_39]]
+    <<jump Sit_OtherHelp_TvG_39>>
 ===
 title: Sit_OtherHelp_TvG_39
 tags: 
@@ -40,27 +42,25 @@ colorID: 0
 position: 438,615
 ---
 //Customer who needs help with other
-    <<animation Bear(Clone) Negative>>
-    <<expression BearFace Angry>>
-    <<animation Bat(Clone) Negative>>
-    <<expression BatFace Angry>>
 You learned that the Bat wants to hang out with the Stone Golem but the Bear doesn´t want to. 
 The Bear doesn´t know the Stone Golem. But the Stone Golem is all alone. 
 -> Suggest that they can play one or two card games together
-    <<save Eventsystem teamwork 10>>
+    <<save EventSystem teamwork 10>>
     <<moodBoard EventSystem happy>>
     Player: I have a plan! 
     <<moodBoard EventSystem angry>>
     Bear: Again..
+    <<animation Bear(Clone) Negative>>
+    <<expression BearFace Angry>>
     <<moodBoard EventSystem happy>>
     Player: Hmm, yeah. So you can play one or two card games together.
     <<moodBoard EventSystem angry>>
     Bear: And why is that a good plan smarty?
     <<moodBoard EventSystem happy>>
     Player: Because card games are more fun with more than two people!
+    Bat: Oh, wait. That´s true.
     <<animation Bat(Clone) Positive>>
     <<expression BatFace Friendly>>
-    Bat: Oh, wait. That´s true.
     Bat: Remember the time we got super bored when we played together?
     <<moodBoard EventSystem angry>>
     Bear: Grhh. Not fun.
@@ -81,12 +81,12 @@ The Bear doesn´t know the Stone Golem. But the Stone Golem is all alone.
     Bat: He likes it!
     Suggesting games that have to be played with more people was a reaally good idea! 
 -> Tell them how you would feel when you were alone and would like to play with others
-    <<save Eventsystem gratitude 10>>
+    <<save EventSystem gratitude 10>>
     <<moodBoard EventSystem angry>>
     Player: I would feel very sad when noone would hang out with me.
+    Bat: Yes, both are my friends. I want to play and chill with both.
     <<expression BatFace Friendly>>
     <<animation Bat(Clone) Positive>>
-    Bat: Yes, both are my friends. I want to play and chill with both.
     <<moodBoard EventSystem happy>>
     Player: I would be sooo happy when someone played with me. 
     Player: And Bear you don´t know him. Maybe he is suuuper nice.
@@ -95,6 +95,8 @@ The Bear doesn´t know the Stone Golem. But the Stone Golem is all alone.
     Player: See?
     <<moodBoard EventSystem angry>>
     Bear: Grhh..
+    <<animation Bear(Clone) Negative>>
+    <<expression BearFace Angry>>
     <<moodBoard EventSystem happy>>
     Player: Play games together!
     Player: He will be suuuper excited to play with such a nice Bear and Bat!

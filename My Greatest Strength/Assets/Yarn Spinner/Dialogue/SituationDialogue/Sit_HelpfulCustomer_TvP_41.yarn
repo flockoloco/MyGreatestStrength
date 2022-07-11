@@ -9,9 +9,9 @@ Woow! The smell of fresh lemons! The lemons you wanted came. They are in big box
     <<save EventSystem teamwork 10>>
     << moodBoard EventSystem happy>>
     Player: Can some of you help me carry the boxes. They are lemons!
+    StoneGolem: I can help you.
     <<animation StoneGolem(Clone) Positive>>
     <<expression StoneGolemFace Neutral>>
-    StoneGolem: I can help you.
     Player: Woooaa! Suuper!
     Player: You carry from one side and I will take the other side!
     <<animation StoneGolem(Clone) Positive>>

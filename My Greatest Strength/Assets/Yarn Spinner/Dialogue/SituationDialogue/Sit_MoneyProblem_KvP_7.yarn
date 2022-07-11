@@ -6,9 +6,9 @@ position: -369,408
     //Customers who have problems with money
 Hmm. Looks like this customer does not have enough money. Let´s see what they have to say..
 <<moodBoard EventSystem angry>>
+Candle: H-hey.. I was just looking for change..
 <<animation Candle(Clone) Negative>>
 <<expression CandleFace Anxious>>
-Candle: H-hey.. I was just looking for change..
 <<moodBoard EventSystem happy>>
 Player: That´s okay. Take your time.
 <<moodBoard EventSystem angry>>

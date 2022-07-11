@@ -5,9 +5,9 @@ position: 427,443
 ---
     //helpful customer
 It´s sooo hot. You look dizzy..You haven´t eaten in a long time, right?
+Mushroom: It must be soo hard in the sun. I have a half of my sandwich. do you want it?
 <<animation Mushroom(Clone) Positive>>
 <<expression MushroomFace Worried>>
-Mushroom: It must be soo hard in the sun. I have a half of my sandwich. do you want it?
 -> Don´t accept as your mum thaught you not to accept anything from strangers
     <<save EventSystem prudence 10>>
     <<moodBoard EventSystem angry>>

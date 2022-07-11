@@ -9,9 +9,9 @@ A younger customer approaches you. They counted the money wrong.
     <<save EventSystem kindness 10>>
     <<moodBoard EventSystem angry>>
     Player: It seems like you have couple of coins missing.
+    Candle: Oh noo!
     <<animation Candle(Clone) Negative>>
     <<expression CandleFace Horrified>>
-    Candle: Oh noo!
     <<moodBoard EventSystem happy>>
     Player: That´s alright. You can bring the rest tomorrow, okay?
     <<animation Candle(Clone) Positive>>
@@ -26,9 +26,9 @@ A younger customer approaches you. They counted the money wrong.
     <<save EventSystem gratitude 10>>
     <<moodBoard EventSystem happy>>
     Player: Here is your juuuiiicy lemonade. Enjoy!
+    Candle: Fank you!
     <<animation Candle(Clone) Positive>>
     <<expression CandleFace Happy>>    
-    Candle: Fank you!
     Candle: You make me feel safe here.
     <<moodBoard EventSystem angry>>
     <<animation Candle(Clone) Negative>>

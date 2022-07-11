@@ -9,9 +9,9 @@ Congratulations! You got a huge order to be picked up soon. You are preparing th
     <<save EventSystem teamwork 10>>
     <<moodBoard EventSystem happy>>
     Player: Owl, do you want a free lemonade?
+    Owl: You need my help again, right?
     <<animation Owl(Clone) Positive>>
     <<expression OwlFace Neutral>>
-    Owl: You need my help again, right?
     Player: Yeee!! Pleease..
     <<animation Owl(Clone) Positive>>
     <<expression OwlFace Happy>>
@@ -23,9 +23,9 @@ Congratulations! You got a huge order to be picked up soon. You are preparing th
     <<save EventSystem bravery 10>>
     Player: Heyoo! I´m sorry. The lemonade will take some time.
     <<moodBoard EventSystem angry>>
+    Bear: Grhhhhhh!!!!!!
     <<animation Bear(Clone) Negative>>
     <<expression BearFace Neutral>>
-    Bear: Grhhhhhh!!!!!!
     <<moodBoard EventSystem happy>>
     Player: I know it is upsetting. I will do my best and be as quick as possible.
     <<moodBoard EventSystem angry>>

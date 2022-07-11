@@ -5,9 +5,9 @@ position: 860,404
 ---
     //Helpful Customer
 A familiar face!
+Owl: How you doing!
 <<animation Owl(Clone) Positive>>
 <<expression OwlFace Happy>>
-Owl: How you doing!
 Player: Heyya! We missed youu.
 <<animation Owl(Clone) Positive>>
 <<expression OwlFace Serious>>

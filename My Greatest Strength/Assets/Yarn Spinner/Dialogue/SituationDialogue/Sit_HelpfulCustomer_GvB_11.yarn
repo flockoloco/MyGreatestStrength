@@ -5,9 +5,9 @@ position: -282,197
 ---
     //Helpful Customer
 Off..it looks stressful here. 
+Owl: Hey! I am waiting for a friend and I am booored. I can help you. You look stressed.
 <<animation Owl(Clone) Positive>>
 <<expression OwlFace Happy>>
-Owl: Hey! I am waiting for a friend and I am booored. I can help you. You look stressed.
 -> Accept help
     <<save EventSystem gratitude 10>>
     <<moodBoard EventSystem happy>>

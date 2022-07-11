@@ -9,9 +9,9 @@ The Chameleon over there look, I think they can´t tie their.. scarf?
     <<save EventSystem kindness 10>>
     <<moodBoard EventSystem happy>>
     Player: Heyyo, can I help you with your scarf?
+    Chameleon: Yeah, I can´t reach it. My hands are..small. Normally, it stays in place.
     <<animation Chameleon(Clone) Negative>>
     <<expression ChameleonFace Disappointed>>
-    Chameleon: Yeah, I can´t reach it. My hands are..small. Normally, it stays in place.
     Player: No worries, I got you!
     <<moodBoard EventSystem angry>>
     <<animation Chameleon(Clone) Negative>>
@@ -26,9 +26,9 @@ The Chameleon over there look, I think they can´t tie their.. scarf?
 -> Let them try it out themselves 
     <<save EventSystem prudence 10>>
     <<moodBoard EventSystem angry>>
+    Chameleon: This..thing..AGHHHHHHH!
     <<animation Chameleon(Clone) Negative>>
     <<expression ChameleonFace Angry>>
-    Chameleon: This..thing..AGHHHHHHH!
     Chameleon: Wait..I
     <<moodBoard EventSystem happy>>
     <<animation Chameleon(Clone) Positive>>
