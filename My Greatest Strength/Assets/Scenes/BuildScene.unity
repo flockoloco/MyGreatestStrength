@@ -1780,7 +1780,7 @@ PrefabInstance:
       objectReference: {fileID: 469548747}
     - target: {fileID: 7017730720997831104, guid: 64fa18b97ab453745bfe3c527e9b0ea3, type: 3}
       propertyPath: eventQueue.Array.size
-      value: 21
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 7017730720997831104, guid: 64fa18b97ab453745bfe3c527e9b0ea3, type: 3}
       propertyPath: eventQueue.Array.data[0]
@@ -1866,6 +1866,62 @@ PrefabInstance:
       propertyPath: eventQueue.Array.data[20]
       value: 
       objectReference: {fileID: 11400000, guid: ae1ccee96517a5b4c88bcb8e49276c26, type: 2}
+    - target: {fileID: 7017730720997831104, guid: 64fa18b97ab453745bfe3c527e9b0ea3, type: 3}
+      propertyPath: eventQueue.Array.data[21]
+      value: 
+      objectReference: {fileID: 11400000, guid: c5620b07408dd104f9978541bc025f96, type: 2}
+    - target: {fileID: 7017730720997831104, guid: 64fa18b97ab453745bfe3c527e9b0ea3, type: 3}
+      propertyPath: eventQueue.Array.data[22]
+      value: 
+      objectReference: {fileID: 11400000, guid: ee5f6fadeef7bdd4291135d96eff611e, type: 2}
+    - target: {fileID: 7017730720997831104, guid: 64fa18b97ab453745bfe3c527e9b0ea3, type: 3}
+      propertyPath: eventQueue.Array.data[23]
+      value: 
+      objectReference: {fileID: 11400000, guid: fe6dfdc9cfa5d5041b11913ecda762fd, type: 2}
+    - target: {fileID: 7017730720997831104, guid: 64fa18b97ab453745bfe3c527e9b0ea3, type: 3}
+      propertyPath: eventQueue.Array.data[24]
+      value: 
+      objectReference: {fileID: 11400000, guid: 3cf061a8592996b448043cc2b03740b9, type: 2}
+    - target: {fileID: 7017730720997831104, guid: 64fa18b97ab453745bfe3c527e9b0ea3, type: 3}
+      propertyPath: eventQueue.Array.data[25]
+      value: 
+      objectReference: {fileID: 11400000, guid: 0fd932436245af34bbcd1e6be5273ab2, type: 2}
+    - target: {fileID: 7017730720997831104, guid: 64fa18b97ab453745bfe3c527e9b0ea3, type: 3}
+      propertyPath: eventQueue.Array.data[26]
+      value: 
+      objectReference: {fileID: 11400000, guid: 8c7a8ca82a45f414c89fc13ad4d3e234, type: 2}
+    - target: {fileID: 7017730720997831104, guid: 64fa18b97ab453745bfe3c527e9b0ea3, type: 3}
+      propertyPath: eventQueue.Array.data[27]
+      value: 
+      objectReference: {fileID: 11400000, guid: 74f26e9145bcd7d4a98715bff0712917, type: 2}
+    - target: {fileID: 7017730720997831104, guid: 64fa18b97ab453745bfe3c527e9b0ea3, type: 3}
+      propertyPath: eventQueue.Array.data[28]
+      value: 
+      objectReference: {fileID: 11400000, guid: d781b2be360fc734c9a2edc4b0eda787, type: 2}
+    - target: {fileID: 7017730720997831104, guid: 64fa18b97ab453745bfe3c527e9b0ea3, type: 3}
+      propertyPath: eventQueue.Array.data[29]
+      value: 
+      objectReference: {fileID: 11400000, guid: 81fd2467de866df45a26ffbf6a2caf11, type: 2}
+    - target: {fileID: 7017730720997831104, guid: 64fa18b97ab453745bfe3c527e9b0ea3, type: 3}
+      propertyPath: eventQueue.Array.data[30]
+      value: 
+      objectReference: {fileID: 11400000, guid: b5aaf4d1fe2a0eb40aa4442f16f9e140, type: 2}
+    - target: {fileID: 7017730720997831104, guid: 64fa18b97ab453745bfe3c527e9b0ea3, type: 3}
+      propertyPath: eventQueue.Array.data[31]
+      value: 
+      objectReference: {fileID: 11400000, guid: 8fee956b7e9a7e84d81d930dc52b3c87, type: 2}
+    - target: {fileID: 7017730720997831104, guid: 64fa18b97ab453745bfe3c527e9b0ea3, type: 3}
+      propertyPath: eventQueue.Array.data[32]
+      value: 
+      objectReference: {fileID: 11400000, guid: d1e862d7a4b956d4fbf0a45d2ccd879d, type: 2}
+    - target: {fileID: 7017730720997831104, guid: 64fa18b97ab453745bfe3c527e9b0ea3, type: 3}
+      propertyPath: eventQueue.Array.data[33]
+      value: 
+      objectReference: {fileID: 11400000, guid: 2deab83377c231a439b0da65b814de3f, type: 2}
+    - target: {fileID: 7017730720997831104, guid: 64fa18b97ab453745bfe3c527e9b0ea3, type: 3}
+      propertyPath: eventQueue.Array.data[34]
+      value: 
+      objectReference: {fileID: 11400000, guid: 94bcbeb095b3867428151d654e8f350c, type: 2}
     - target: {fileID: 7017730720997831104, guid: 64fa18b97ab453745bfe3c527e9b0ea3, type: 3}
       propertyPath: npcPositionToScreen.Array.data[0].npcFinalPosition
       value: 
