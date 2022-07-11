@@ -4,8 +4,8 @@ colorID: 0
 position: 294,177
 ---
 //Customer who needs other help
-    <<animation Mushroom(Clone) Negative>>
 Mushroom: It´s me again! I am soooooooooo bored.
+    <<animation Mushroom(Clone) Negative>>
 Player: Whyy? 
 Mushroom: Cause I don´t know what to dooooo!
 Mushroom: I am new to thiis. Do you know some fun things to do hereeee?
@@ -13,13 +13,13 @@ Mushroom: I am new to thiis. Do you know some fun things to do hereeee?
     <<save EventSystem teamwork 10>>
     <<moodBoard EventSystem happy>>
     Player: Yes! We can help you, right?
-    <<expression OwlFace Neutral>>
     Owl: Sure! Ehmm.. You can go skating at the little town mall. 
-    <<expression BearFace Neutral>>
+    <<expression OwlFace Neutral>>
     Bear: Or go honey fishing in the forest with friends.
+    <<expression BearFace Neutral>>
+    Mushroom: What is thaaaat?
     <<animation Mushroom(Clone) Positive>>
     <<expression MushroomFace Excited>>
-    Mushroom: What is thaaaat?
     <<moodBoard EventSystem angry>>
     Bear: You search for honey in the woods..Obviously.
     <<moodBoard EventSystem happy>>
@@ -34,9 +34,9 @@ Mushroom: I am new to thiis. Do you know some fun things to do hereeee?
     Player: Ohhh! You are new? Have a free lemonade as a welcome.
     Player: Welcome!
     Player: You can go skating down at the town mall.
+    Mushroom: Reeeally?? Thank you! I´m actually new to doing fun stuff outside.
     <<animation Mushroom(Clone) Positive>>
     <<expression MushroomFace Excited>>
-    Mushroom: Reeeally?? Thank you! I´m actually new to doing fun stuff outside.
     Mushroom: This is a wooonderful town! Thanks.
     That was a cute gift. And a warm welcome.
 ===

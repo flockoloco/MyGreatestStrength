@@ -13,9 +13,9 @@ Candle: I fink so.
     <<save EventSystem teamwork 10>>
     <<moodBoard EventSystem happy>>
     Player: Hey Bat!
+    Bat: Mm?
     <<moodBoard EventSystem angry>>
     <<expression BatFace Neutral>>
-    Bat: Mm?
     Player: Hey Baat!!
     Bat: What do you want?
     <<moodBoard EventSystem happy>>

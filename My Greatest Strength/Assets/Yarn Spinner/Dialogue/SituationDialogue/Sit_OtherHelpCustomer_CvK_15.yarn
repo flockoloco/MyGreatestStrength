@@ -10,9 +10,9 @@ Do you see that next customer over there. They look sad.
     <<moodBoard EventSystem happy>>
     Player: Hey, is everything alright with you?
     <<moodBoard EventSystem angry>>
+    Candle: Yes, why..
     <<animation Candle(Clone) Negative>>
     <<expression CandleFace Anxious>>
-    Candle: Yes, why..
     Player: Dunno. You looked sad. Maybe you want to talk.
     Candle: I was just overwhelmed with the crowd. 
     Candle: It is too much sometimes.
@@ -27,9 +27,9 @@ Do you see that next customer over there. They look sad.
     <<moodBoard EventSystem happy>>
     Player: Hey, how are you?
     <<moodBoard EventSystem angry>>
+    Candle: Good. I guess..
     <<animation Candle(Clone) Negative>>
     <<expression CandleFace Anxious>>
-    Candle: Good. I guess..
     <<moodBoard EventSystem happy>>
     Player: So you want one lemonade?
     Candle: Yes.

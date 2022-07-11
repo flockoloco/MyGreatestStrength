@@ -4,9 +4,9 @@ colorID: 0
 position: 348,287
 ---
 //Customer who need other help
+Chameleon: What a s-s-sunnyy day! And a delic-c-ious lemonade. Tell me now, what is the recipe!!
     <<animation Chameleon(Clone) Positive>>
     <<expression ChameleonFace Happy>>
-Chameleon: What a s-s-sunnyy day! And a delic-c-ious lemonade. Tell me now, what is the recipe!!
 -> Tell some of it out of kindness
     <<save EventSystem kindness 10>>
     <<moodBoard EventSystem happy>>
@@ -19,8 +19,8 @@ Chameleon: What a s-s-sunnyy day! And a delic-c-ious lemonade. Tell me now, what
     <<save EventSystem bravery 10>>
     <<moodBoard EventSystem angry>>
     Player: It is my recipe and it is a secret. 
-    <<expression ChameleonFace Disappointed>>
     Chameleon: Oh, come on! Tell me. I just want to know.
+	<<expression ChameleonFace Disappointed>>
     Player: Thank you but no.
     <<expression ChameleonFace Angry>>
     Chameleon: Well that is rude!

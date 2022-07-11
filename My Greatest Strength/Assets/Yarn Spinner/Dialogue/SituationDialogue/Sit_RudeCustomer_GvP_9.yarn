@@ -6,9 +6,9 @@ position: 421,369
 //Rude Customer
 SOOOO many customers! WOO WOO!
 Wait..Look! Do you remember this customer. They did not pay last time! What do they want now?
+Chameleon: Hello. I would like to have a lemonade. I heard it is-s... quite good. 
 <<expression ChameleonFace Neutral>>
 <<animation Chameleon(Clone) Positive>>
-Chameleon: Hello. I would like to have a lemonade. I heard it is-s... quite good. 
 Player: I thought you tasted it before?
 Chameleon: I dunno.
 -> Sell them the lemonade. This time they want to pay.
@@ -17,13 +17,12 @@ Chameleon: I dunno.
     Player: Well, I think I saw you around. So, one lemonade?
     Chameleon: Yes-s, please. You are preeetty bus-sy today, huh?
     Player: I had a lot of customers. I am verryy happy. I think I can buy my bike soon. 
-    Customer: I didn´t know you were s-saving for this..
+    Chameleon: I didn´t know you were s-saving for this..
     Wheeew. I thought they will not pay today. Guess they changed? You always see the good in people!! Teach mee!!!
 ->  Don´t sell the lemonade. They did not pay last time. 
     <<save EventSystem prudence 10>>
     <<moodBoard EventSystem angry>>
     Player: I am preeetty sure I saw you last time. You forgot to pay.
-    <<expression ChameleonFace Disappointed>>
     Player: That made me feel sad. I hope you learn your lesson.
     You have to protect your business. Customers can´t do whateeeeever they want. Actions have consequences. But you knew all of this already!
 ===

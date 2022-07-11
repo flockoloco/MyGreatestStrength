@@ -4,8 +4,6 @@ colorID: 0
 position: 294,469
 ---
 //Customer who needs other help
-    <<animation Candle(Clone) Negative>>
-    <<expression CandleFace Anxious>>
 Oh no! The Candle spilled their drink on the ground.
 -> Console them as they might felt guilty
     <<save EventSystem kindness 10>>
@@ -39,8 +37,8 @@ Oh no! The Candle spilled their drink on the ground.
     <<save EventSystem prudence 10>>
     <<moodBoard EventSystem angry>>
     Player: Are you alright? 
-    <<expression CandleFace Horrified>>
     Candle: Yes, I fink so. I´m so so so sorry.
+	<<expression CandleFace Horrified>>
     <<moodBoard EventSystem happy>>
     Player: That´s fine. I will quickly clean this so noone slips, okay?
     Candle: O-okay. 

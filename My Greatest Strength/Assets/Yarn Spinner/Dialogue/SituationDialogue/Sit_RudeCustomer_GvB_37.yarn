@@ -6,9 +6,9 @@ position: 385,415
 //Rude customer
 The Bear again..
 <<moodBoard EventSystem angry>>
+Bear: I am waiting for aaages now. I have to go back to my honey!
 <<animation Bear(Clone) Negative>>
 <<expression BearFace Angry>>
-Bear: I am waiting for aaages now. I have to go back to my honey!
 Bear: What is taking you so long?
 Bear: IT´S JUST LEMONADE!
 -> Thank them for their patience.
@@ -16,7 +16,6 @@ Bear: IT´S JUST LEMONADE!
     <<moodBoard EventSystem happy>>
     Player: Thank you for waiting. I am alone here and trying to make everyone happy.
     Player: Sometimes it can take some time.
-    <<expression BearFace Neutral>>
     Player: That you are waiting here for my special lemonade is really kind. Thank you.
     The Bear was too stunned to speak hahaha. Shut them up with kindness!
 -> Tell them that everyone is waiting. 
@@ -26,7 +25,6 @@ Bear: IT´S JUST LEMONADE!
     Player: Everyone is waiting in line.
     Player: And everyone has to go somewhere.
     Player: It is not fair when I give you the lemonade first.
-    <<expression BearFace Neutral>>
     Player: Mushroom is also waiting so long.
     Let´s gooo little Lion!! He doesn´t know how much time making lemonades take.. Pfff..
 ===

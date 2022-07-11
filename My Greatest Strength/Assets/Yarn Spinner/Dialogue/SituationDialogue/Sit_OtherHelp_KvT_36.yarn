@@ -4,11 +4,11 @@ colorID: 0
 position: 642,478
 ---
 //Customer who need other help
-    <<animation Bat(Clone) Positive>>
-    <<expression BatFace Neutral>>
 Oh that´s the local restaurant owner. The Bat!
 Player: Hey, one lemonade?
 Bat: No, I wanted to ask if you have some coins. I can give you the money and you some spare coins?
+    <<animation Bat(Clone) Positive>>
+    <<expression BatFace Neutral>>
 -> Kindly decline as you don´t have much and need it as well.
     <<save EventSystem kindness 10>>
     <<moodBoard EventSystem angry>>
@@ -24,12 +24,12 @@ Bat: No, I wanted to ask if you have some coins. I can give you the money and yo
     <<moodBoard EventSystem happy>>
     Player: I don´t have much but I can ask other customers.
     Player: Does any of you have change?
+    StoneGolem: I had some squeezed between my stones.
     <<animation StoneGolem(Clone) Positive>>
     <<expression StoneGolemFace Friendly>>
-    StoneGolem: I had some squeezed between my stones.
     Player: Awesome! We can put them together!
     Player: Here.
-    <<expression BatFace Happy>>
     Bat: Thank you little one for your help.
+    <<expression BatFace Happy>>
     Teaming up with other customers was a great solution!
 ===

@@ -9,9 +9,9 @@ The customers run for your help and said they can fix it today.
 -> Accept help and offer free lemonade
     <<save EventSystem teamwork 10>>
     << moodBoard EventSystem happy>>
+    Owl:  We can fix this together. That´s not a problem.
     <<animation Owl(Clone) Positive>>
     <<expression OwlFace Happy>>
-    Owl:  We can fix this together. That´s not a problem.
     Player: Thank you so much! I can help as well.
     Owl: Yeah, we all can do it. Stone Golem can also help. He can carry heavy things!
     Player: Yes! And I can make lemonades.

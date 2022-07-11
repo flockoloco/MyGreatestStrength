@@ -5,9 +5,9 @@ position: 233,247
 ---
 //Rude Customer
 Wha-What is going on there?
+Bear: You must serve me first!
 <<moodBoard EventSystem angry>>
 <<expression BearFace Angry>>
-Bear: You must serve me first!
 Player: Ehmm.??? Why?
 Bear: I am older than eeeeveryone here!
 Player: You just cut the line.
@@ -26,9 +26,9 @@ Bear: I know. But I am muuch older.
     <<moodBoard EventSystem happy>>
     Player: Are you having a rough day? I know that normally you would not cut the line.
     <<moodBoard EventSystem angry>>
+    Bear: NO I would!
     <<animation Bear(Clone) Negative>>
     <<expression BearFace Angry>>
-    Bear: NO I would!
     <<moodBoard EventSystem happy>>
     Player: I thought the elderly know rules better..
     <<moodBoard EventSystem angry>>

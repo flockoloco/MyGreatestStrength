@@ -5,15 +5,14 @@ position: 347,183
 ---
 //Rude Customer
 Good job! You managed everything peeeerfectly.
-<<animation Chameleon(Clone) Negative>>
-<<expression ChameleonFace Disappointed>>
 This customer is complaining about the taste but they finished the drink so fast.
 -> Tell them they could have asked for a sample
     <<moodBoard EventSystem happy>>
     <<save EventSystem prudence 10>>
     Player: Okay. Everyone´s taste is different. That´s why I offer small sips when you are not sure. Then you can order it.
-    <<expression ChameleonFace Neutral>>
     Chameleon: Hmm. You thought of e-everything. 
+	<<animation Chameleon(Clone) Negative>>
+	<<expression ChameleonFace Disappointed>>
     Player: Yes, of course! I want to make my customers happy and myself. 
     Once again, that was clever!
 ->  Trust the taste of your lemonade
@@ -21,8 +20,8 @@ This customer is complaining about the taste but they finished the drink so fast
     <<save EventSystem bravery 10>>
     Player: The lemonade is made with the beeest of products. It is the perfect recipe.
     Player: And I stand for it! Plus why did you drink all of the lemonade then??
-    <<moodBoard EventSystem angry>>
-    <<expression ChameleonFace Happy>>
     Chameleon: I.. I.. I gotta go.
+    <<moodBoard EventSystem angry>>
+    <<expression ChameleonFace Neutral>>
     That´s what I am talking about!! You are confident in your product and you are not afraid of telling them!!
 ===

@@ -5,9 +5,9 @@ position: 190,200
 ---
 Is that the troublemaker Bear customer again?
 <<moodBoard EventSystem angry>>
+Bear: You gave me the wrong change!
 <<animation Bear(Clone) Negative>> 
 <<expression BearFace Angry>>
-Bear: You gave me the wrong change!
 Player: What?
 Bear: Are you dumb? I said you gave me the wrong change.
 Player: I have a diary where I write everything down.
@@ -27,8 +27,8 @@ You checked the diary and everything looks correct.
     <<moodBoard EventSystem happy>>
     Player: So I have this diary and I write everything down. I know you are angry but I did everything right. If not I would give you the money back. Trust me.
     Player: Maybe you lost your money?
-    <<expression BearFace Neutral>>
     Bear: Hmm. I don´t know, maybe. 
+    <<expression BearFace Neutral>>
     Player: Can I do anything else for you?
     Bear: No, not now. 
     He was very angry but you handled the situation good and calmed him down.
