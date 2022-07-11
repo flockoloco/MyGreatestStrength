@@ -5,9 +5,10 @@ using UnityEngine;
 
 public class DontDestroyOnLoadScript : MonoBehaviour
 {
+    public YarnCommands.Choices data = new YarnCommands.Choices();
     public void preserveData(YarnCommands commands)
     {
-        YarnCommands.Choices data = new YarnCommands.Choices();
+        
         data = commands.choices;
         Debug.Log(data.Teamwork);
     }
