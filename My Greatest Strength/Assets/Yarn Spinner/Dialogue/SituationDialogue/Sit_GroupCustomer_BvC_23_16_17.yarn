@@ -58,8 +58,8 @@ colorID: 0
 position: 374,526
 ---
     //Group Customer
-The bullies won´t back down. Another customer comes.
-StoneGolem: Get lost. Now!!!!!
+    The bullies won´t back down. Another customer comes.
+    StoneGolem: Get lost. Now!!!!!
     <<animation StoneGolem(Clone) Negative>>
     <<expression StoneGolemFace Angry>>
 -> Thank them
