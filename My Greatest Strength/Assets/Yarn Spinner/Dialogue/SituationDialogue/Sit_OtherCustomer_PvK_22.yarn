@@ -4,7 +4,7 @@ colorID: 0
 position: -89,231
 ---
     //Customer who need other help
-The Chameleon over there look, I think they can´t tie their.. scarf?
+	The Chameleon over there look, I think they can´t tie their.. scarf?
 -> Help them
     <<save EventSystem kindness 10>>
     <<moodBoard EventSystem happy>>

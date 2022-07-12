@@ -9,7 +9,7 @@ Player: Here your lemonade!
 <<moodBoard EventSystem angry>>
 Tree: One 
 <<animation Tree(Clone) Positive>>
-<<expression TreeFace Serious>>
+<<expression TreeFace Annoyed>>
 Tree: Second...
 Tree: Hmmm.
 Tree: Ehm.. one.. two
@@ -30,7 +30,7 @@ Looks like they will take time counting the money.
     <<moodBoard EventSystem happy>>
     Player: We can count them together! I can help you.
     <<animation Tree(Clone) Positive>>
-    <<expression TreeFace Serious>>
+    <<expression TreeFace Annoyed>>
     Tree: I don´t want to waste your time..
     Player: No it´s fun. No worries
     <<animation Tree(Clone) Positive>>
@@ -44,7 +44,7 @@ Looks like they will take time counting the money.
     Player: Take aaaall the time you need.
     <<moodBoard EventSystem angry>>
     <<animation Tree(Clone) Positive>>
-    <<expression TreeFace Serious>>
+    <<expression TreeFace Annoyed>>
     Tree: Onee..
     Tree: Two.
     Tree: Four

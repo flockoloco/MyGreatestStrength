@@ -4,9 +4,9 @@ colorID: 0
 position: 187,417
 ---
 //Customer who need other help
-    Mushroom: Heyoo peeps! Do you know where a nearby supermarket is?
-    <<animation Mushroom(Clone) Positive>>
-    <<expression MushroomFace Friendly>>
+	Mushroom: Heyoo peeps! Do you know where a nearby supermarket is?
+	<<animation Mushroom(Clone) Positive>>
+	<<expression MushroomFace Friendly>>
 -> Wait until other customers respond. Maybe they have a better location
     <<save EventSystem curiosity 10>>
     <<moodBoard EventSystem happy>>

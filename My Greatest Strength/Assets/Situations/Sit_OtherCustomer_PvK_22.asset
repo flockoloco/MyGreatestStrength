@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   eventNameToStart: Sit_OtherCustomer_PvK_22
   Variables:
-  - Npc: {fileID: 3532304817155219564, guid: a8dda2aaba8b8ad49bbdcf0398e0fd04, type: 3}
+  - Npc: {fileID: 8533059457245285206, guid: 957c3a10a471979409bd8750b192b10d, type: 3}
     NpcName: 

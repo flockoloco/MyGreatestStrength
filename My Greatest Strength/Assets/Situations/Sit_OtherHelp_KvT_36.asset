@@ -16,3 +16,5 @@ MonoBehaviour:
   Variables:
   - Npc: {fileID: 8888835671611843949, guid: 32ca77b953266964788ad4a073bbe1ed, type: 3}
     NpcName: 
+  - Npc: {fileID: 6770653782847129780, guid: 2ffef8e2c3ee32d4db2ebc8f19016732, type: 3}
+    NpcName: 
