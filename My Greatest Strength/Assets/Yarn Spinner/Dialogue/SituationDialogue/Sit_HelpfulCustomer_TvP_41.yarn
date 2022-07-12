@@ -21,9 +21,9 @@ Woow! The smell of fresh lemons! The lemons you wanted came. They are in big box
 -> Serve customers first and then carry them 
     <<save EventSystem prudence 10>>
     << moodBoard EventSystem happy>>
+    StoneGolem: You need help with these?
     <<animation StoneGolem(Clone) Positive>>
     <<expression StoneGolemFace Neutral>>
-    StoneGolem: You need help with these?
     Player: No, I will do them later when the line is less!
     Player: I don´t want customers to wait.
     Player: Thank you!

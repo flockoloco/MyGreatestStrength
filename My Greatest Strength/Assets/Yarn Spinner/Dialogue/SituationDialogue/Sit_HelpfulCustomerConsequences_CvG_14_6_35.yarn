@@ -24,9 +24,9 @@ No!! Look! It is this customer on the left. How??
     <<save EventSystem gratitude 10>>
     <<moodBoard EventSystem happy>>
     Player: Hey! How did you do that. It was.. like a bird!
+    Mushroom: I can teach you! 
     <<animation Mushroom(Clone) Positive>>
     <<expression MushroomFace Friendly>>
-    Mushroom: I can teach you! 
     That will take some practice. But you figured it out already! You learned a new skill!
 <<jump Sit_GenerousCustomerConsequences_GvC_6>>
 ===
@@ -62,9 +62,9 @@ As a thank you they give you a tip. You are couple of bucks closer to your dream
     <<save EventSystem curiosity 10>>
     <<moodBoard EventSystem happy>>
     Player: Are you from this town? I have not seen you before.
+    Mushroom: Actually I lived here for 10 years now. I barely go out because of my allergies. 
     <<animation Mushroom(Clone) Positive>>
     <<expression MushroomFace Worried>>
-    Mushroom: Actually I lived here for 10 years now. I barely go out because of my allergies. 
     Player: Oh no that must be stooopid. 
     <<animation Mushroom(Clone) Negative>>
     <<expression MushroomFace Worried>>

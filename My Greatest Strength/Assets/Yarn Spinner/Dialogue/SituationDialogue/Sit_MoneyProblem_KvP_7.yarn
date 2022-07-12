@@ -28,16 +28,16 @@ Candle: Do you have leftover lemonade or somefing? F-for me?
     <<save EventSystem kindness 10>>
     <<moodBoard EventSystem happy>>
     Player: No, I can give you the lemonade. It´s okay. Don´t worry about it.
+    Candle: Fank you! It looks soooo refreshing.
     <<animation Candle(Clone) Positive>>
     <<expression CandleFace Happy>>
-    Candle: Fank you! It looks soooo refreshing.
     Some people have problems with money. Life is not always fair. You helped a customer that looked like they really need a freshhh drink. That was very kindhearted. I hope you know that.
 -> Ask them to help you in exchange.
     <<save EventSystem prudence 10>>
     <<moodBoard EventSystem happy>>
     Player: It is sooo full here. I can use a helping hand. Do you mind pouring some glasses and I can give you the lemonade as a thank you? 
+    Candle: R-Really? Of course! I am pleased to help. 
     <<animation Candle(Clone) Positive>>
     <<expression CandleFace Happy>>
-    Candle: R-Really? Of course! I am pleased to help. 
     That was an awesome deal! Win win!
 ===

@@ -33,10 +33,10 @@ Double Oh no! They have a dog! A veeery not nice dog.. The owners are not home y
 -> Give a treat to the dog and try to be friends and get the signboard
     <<save EventSystem bravery 10>>
     <<moodBoard EventSystem angry>>
-    Player: I will get a treat and be friends with the dog.
-    <<animation Owl(Clone) Positive>>
-    <<expression OwlFace Serious>>    
+    Player: I will get a treat and be friends with the dog. 
     Owl: How???
+    <<animation Owl(Clone) Positive>>
+    <<expression OwlFace Serious>>   
     Player: I don´t know yet. I will be very careful.
     <<animation Owl(Clone) Negative>>
     <<expression OwlFace Serious>>

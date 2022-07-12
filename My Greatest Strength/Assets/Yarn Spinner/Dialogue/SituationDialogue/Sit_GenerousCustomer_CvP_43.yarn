@@ -33,7 +33,7 @@ Tree: I really like your lemonades and wanted to ask if you can bring some to my
     Player: I need to know the number of guests.
     Tree: Maybe ehm..
     <<animation Tree(Clone) Negative>>
-    <<expression TreeFace Serious>>
+    <<expression TreeFace Annoyed>>
     Tree: Thirty..
     Tree: Thirty..three..
     <<animation Tree(Clone) Positive>>
@@ -42,7 +42,7 @@ Tree: I really like your lemonades and wanted to ask if you can bring some to my
     Player: That´s awesome, write that down please.
     Player: When is the party?
     <<animation Tree(Clone) Negative>>
-    <<expression TreeFace Serious>>
+    <<expression TreeFace Annoyed>>
     Tree: It´s in three..
     <<animation Tree(Clone) Positive>>
     <<expression TreeFace Happy>>

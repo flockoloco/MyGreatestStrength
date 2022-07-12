@@ -4,9 +4,9 @@ colorID: 0
 position: 642,478
 ---
 //Customer who need other help
-Oh that´s the local restaurant owner. The Bat!
-Player: Hey, one lemonade?
-Bat: No, I wanted to ask if you have some coins. I can give you the money and you some spare coins?
+	Oh that´s the local restaurant owner. The Bat!
+	Player: Hey, one lemonade?
+	Bat: No, I wanted to ask if you have some coins. I can give you the money and you some spare coins?
     <<animation Bat(Clone) Positive>>
     <<expression BatFace Neutral>>
 -> Kindly decline as you don´t have much and need it as well.
