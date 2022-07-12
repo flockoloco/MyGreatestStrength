@@ -175,10 +175,11 @@ public class DialogueEventSystem : MonoBehaviour
 
     void EndGame()
     {
+        eventSystem.GetComponent<YarnCommands>().SendDataToTextFile();
         immortalObject.GetComponent<DontDestroyOnLoadScript>().preserveData(eventSystem.GetComponent<YarnCommands>());
         SceneManager.LoadScene("EndResultScene");
     }
-    
+
     public void EndEvent()
     {
         Destroy(spawnHolder[0]);

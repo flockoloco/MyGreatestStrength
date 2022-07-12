@@ -91,7 +91,7 @@ public class YarnCommands : MonoBehaviour
         }
     }
     
-    private void OnApplicationQuit()
+    public void SendDataToTextFile()
     {
         if (File.Exists(Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "/ChoicesScoreboard.txt"))
         {
