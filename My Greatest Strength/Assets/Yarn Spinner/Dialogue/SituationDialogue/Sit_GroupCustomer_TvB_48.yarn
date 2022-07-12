@@ -19,7 +19,7 @@ Yayyy, a group of customers come to your stand. That´s not english? They speak 
     Tree: Yes!
     Tree: They want..
     <<animation Tree(Clone) Positive>>
-    <<expression TreeFace Happy>>
+    <<expression TreeFace Serious>>
     Tree: Three..
     Tree: Four..
     <<animation Tree(Clone) Positive>>
