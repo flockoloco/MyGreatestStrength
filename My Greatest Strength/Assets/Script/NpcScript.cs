@@ -21,7 +21,7 @@ public class NpcScript : MonoBehaviour
     {
         if (positionToBe != null && transform.position != positionToBe)
         {
-            transform.position = Vector3.Lerp(transform.position, positionToBe, movementSpeed * Time.deltaTime);
+            transform.position = Vector3.Lerp(transform.position, positionToBe, movementSpeed * Time.fixedDeltaTime);
         }
 
         if (npcToBeDestroyed)
