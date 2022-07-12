@@ -36,9 +36,9 @@ Customers are backing down. Is someone getting teased over there??
     <<animation Candle(Clone) Positive>>
     <<expression CandleFace Anxious>>
     Candle: I´d like fat..
+    Chameleon: Oh, are you going to cry with the lemonade man now?
     <<animation Chameleon(Clone) Negative>>
     <<expression ChameleonFace Angry>>
-    Chameleon: Oh, are you going to cry with the lemonade man now?
 -> Confront the bullies
     <<moodBoard EventSystem angry>>
     <<save EventSystem bravery 10>>

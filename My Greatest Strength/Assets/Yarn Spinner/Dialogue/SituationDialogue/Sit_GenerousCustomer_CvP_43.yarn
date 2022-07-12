@@ -14,7 +14,7 @@ Tree: I really like your lemonades and wanted to ask if you can bring some to my
     Player: That´s so fun! For what is the party
     Tree: For my..
     <<animation Tree(Clone) Negative>>
-    <<expression TreeFace Serious>>
+    <<expression TreeFace Annoyed>>
     Tree: EHm..
     Tree: three..
     Tree: four..
