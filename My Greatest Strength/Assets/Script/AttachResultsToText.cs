@@ -23,11 +23,11 @@ public class AttachResultsToText : MonoBehaviour
     {
         dataTime.text = DateTime.Now.ToString();
 
-        bunchOfText[0].text = _immortableObject.data.Gratitude ?? "0";
-        bunchOfText[1].text = _immortableObject.data.Bravery ?? "0";
-        bunchOfText[2].text = _immortableObject.data.Curiosity ?? "0";
-        bunchOfText[3].text = _immortableObject.data.Prudence ?? "0";
-        bunchOfText[4].text = _immortableObject.data.Teamwork ?? "0";
-        bunchOfText[5].text = _immortableObject.data.Kindness ?? "0";
+        bunchOfText[0].text = _immortableObject.data.Gratitude.ToString() ?? "0";
+        bunchOfText[1].text = _immortableObject.data.Bravery.ToString() ?? "0";
+        bunchOfText[2].text = _immortableObject.data.Curiosity.ToString() ?? "0";
+        bunchOfText[3].text = _immortableObject.data.Prudence.ToString() ?? "0";
+        bunchOfText[4].text = _immortableObject.data.Teamwork.ToString() ?? "0";
+        bunchOfText[5].text = _immortableObject.data.Kindness.ToString() ?? "0";
     }
 }

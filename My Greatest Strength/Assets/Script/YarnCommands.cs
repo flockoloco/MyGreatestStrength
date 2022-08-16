@@ -12,12 +12,12 @@ public class YarnCommands : MonoBehaviour
 {
     public class Choices
     {
-        public string Gratitude;
-        public string Bravery;
-        public string Curiosity;
-        public string Prudence;
-        public string Teamwork;
-        public string Kindness;
+        public int Gratitude;
+        public int Bravery;
+        public int Curiosity;
+        public int Prudence;
+        public int Teamwork;
+        public int Kindness;
     }
     
     public Choices choices = new Choices();
@@ -41,28 +41,28 @@ public class YarnCommands : MonoBehaviour
         switch (choiceName)
         {
             case "gratitude":
-                choices.Gratitude += choiceAmount;
+                choices.Gratitude = choiceAmount + choices.Gratitude;
                 break;
             case "bravery":
-                choices.Bravery += choiceAmount;
+                choices.Bravery = choiceAmount + choices.Bravery;
                 break;
             case "curiosity":
-                choices.Curiosity += choiceAmount;
+                choices.Curiosity = choiceAmount + choices.Curiosity;
                 break;
             case "prudence":
-                choices.Prudence += choiceAmount;
+                choices.Prudence = choiceAmount + choices.Prudence;
                 break;
             case "teamwork":
-                choices.Teamwork += choiceAmount;
+                choices.Teamwork = choiceAmount + choices.Teamwork;
                 break;
             case "kindness":
-                choices.Kindness += choiceAmount;
+                choices.Kindness = choiceAmount + choices.Kindness;
                 break;
             default:
-                Debug.LogWarning("Wrong mood for text background was written!");
+                Debug.LogWarning("Wrong value was written!");
                 break;
         }
-
+        
         StartCoroutine(fillCup());
     }
 

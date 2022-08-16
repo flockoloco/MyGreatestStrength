@@ -10,8 +10,8 @@ Oh no! The Candle spilled their drink on the ground.
     <<moodBoard EventSystem happy>>
     Player: Are you doing fine?
     <<moodBoard EventSystem angry>>
-    <<expression CandleFace Horrified>>
     Candle: I´m so so so so sorry. I´m so sorry. I fink I ruined everyfing.
+    <<expression CandleFace Horrified>>
     <<moodBoard EventSystem happy>>
     Player: No! You didn´t do anything.
     Player: We can clean it up. It´s all good.

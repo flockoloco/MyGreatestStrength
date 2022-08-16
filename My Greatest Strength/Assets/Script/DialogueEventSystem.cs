@@ -153,7 +153,7 @@ public class DialogueEventSystem : MonoBehaviour
                 {
                     for (int i = 0; i < eventQueue.First().Variables.Count; i++)
                     {
-                        if (characterName.text == eventQueue.First().Variables[i].NpcName)
+                        if (characterName.text == eventQueue.First().Variables[i].Npc.name)
                         {
                             if (npcPositionToScreen[0].npc.name == _previousSpeaker)
                             {

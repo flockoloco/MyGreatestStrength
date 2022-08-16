@@ -46,18 +46,18 @@ As a thank you they give you a tip. You are couple of bucks closer to your dream
     <<animation Mushroom(Clone) Positive>>
     <<expression MushroomFace Excited>>
     -> Thank them for their suuuper help.
-    <<save EventSystem gratitude 10>>
-    <<moodBoard EventSystem happy>>
-    Player: Really? That mean a loot to me. Thank youu!
+        <<save EventSystem gratitude 10>>
+        <<moodBoard EventSystem happy>>
+        Player: Really? That mean a loot to me. Thank youu!
     -> Ask them about their friends. Maybe you saw them.
-    <<save EventSystem curiosity 10>>
-    <<moodBoard EventSystem happy>>
-    Player: Who are the locals you know? Maybe I saw them here?
-    <<animation Mushroom(Clone) Positive>>
-    <<expression MushroomFace Friendly>>
-    Mushroom: It is the Owl, she is very cute
-    Player: Oh I know them. Maybe I will see them again!
-    The Mushroom leaves with a big smile. You brighten everyones day with your kind heart! Maybe there will be more customers for you. Keep up the good work.
+        <<save EventSystem curiosity 10>>
+        <<moodBoard EventSystem happy>>
+        Player: Who are the locals you know? Maybe I saw them here?
+        <<animation Mushroom(Clone) Positive>>
+        <<expression MushroomFace Friendly>>
+        Mushroom: It is the Owl, she is very cute
+        Player: Oh I know them. Maybe I will see them again!
+        The Mushroom leaves with a big smile. You brighten everyones day with your kind heart! Maybe there will be more customers for you. Keep up the good work.
 -> Continue to know them better.
     <<save EventSystem curiosity 10>>
     <<moodBoard EventSystem happy>>
@@ -70,18 +70,18 @@ As a thank you they give you a tip. You are couple of bucks closer to your dream
     <<expression MushroomFace Worried>>
     Mushroom: Yes, sometimes it gets rough.. But when I meet such amazing hearts I feel much better! I actually know a lot of locals and will definetly tell them about your stand. 
     -> Thank them for their suuuper help.
-    <<save EventSystem gratitude 10>>
-    <<moodBoard EventSystem happy>>
-    Player: Really? That mean a loot to me. Thank youu!
-    <<save EventSystem curiosity 10>>
-    <<moodBoard EventSystem happy>>
+        <<save EventSystem gratitude 10>>
+        <<moodBoard EventSystem happy>>
+        Player: Really? That mean a loot to me. Thank youu!
+        <<save EventSystem curiosity 10>>
+        <<moodBoard EventSystem happy>>
     -> Ask them about their friends. Maybe you saw them.
-    Player: Who are the locals you know? Maybe I saw them here?
-    <<animation Mushroom(Clone) Positive>>
-    <<expression MushroomFace Friendly>>
-    Mushroom: It is the Owl, she is very cute
-    Player: Oh I know them. Maybe I will see them again!
-    The Mushroom leaves with a big smile. Who knows maybe you will get more customers? Keep up the good work. 
+        Player: Who are the locals you know? Maybe I saw them here?
+        <<animation Mushroom(Clone) Positive>>
+        <<expression MushroomFace Friendly>>
+        Mushroom: It is the Owl, she is very cute
+        Player: Oh I know them. Maybe I will see them again!
+        The Mushroom leaves with a big smile. Who knows maybe you will get more customers? Keep up the good work. 
 <<jump Sit_HelpfulCustomerConsequences_GvC_35>>
 ===
 title: Sit_HelpfulCustomerConsequences_GvC_35
