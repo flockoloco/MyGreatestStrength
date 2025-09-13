@@ -9,4 +9,4 @@ Concept:
 
 Demo Video: https://drive.google.com/file/d/137JAQNt1Krr1Y4i9hfM-L47dZb-DVsYW/view?usp=sharing
 
-Demo Game: run "My Greatest Strength.exe" in Demo folder -> https://drive.google.com/drive/folders/1Xg1rebKiCIThAjnf2k7WD0zRmmjfVqs4?usp=share_link
+Demo Game: run "My Greatest Strength.exe" in Demo folder -> https://drive.google.com/drive/folders/1lw74xlxEm046_9qcvzWetJEppIUA627y?usp=share_link
